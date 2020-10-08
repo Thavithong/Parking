@@ -8,10 +8,10 @@ npm i react-native-camera@3.23.0
 do not link. Please following by the guiline below :
 
 Add permissions to your app android/app/src/main/AndroidManifest.xml file:
-    <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+<uses-permission android:name="android.permission.CAMERA" />
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.RECORD_AUDIO"/>
 
 Insert the following lines in android/app/build.gradle:
     defaultConfig {
